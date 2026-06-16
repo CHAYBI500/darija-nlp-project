@@ -1,0 +1,11 @@
+data:
+  path: "data/raw/darija_dataset_merged.csv"
+  text_column: "text"
+
+model:
+  test_size: 0.2
+  random_state: 42
+
+tfidf:
+  max_features: 6000
+  ngram_range: (1,2)
